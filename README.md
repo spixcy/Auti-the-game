@@ -113,35 +113,6 @@ You wake up alone in a sprawling open world. Gather resources, craft tools and s
 
 ---
 
-## 📁 Project Structure
-
-```
-Assets/
-├── Scripts/
-│   ├── Inventory/       # InventoryManager, CraftingManager, ItemData, ItemSlot, CraftingRecipe
-│   ├── UI/              # InventoryUI, CraftingTablePanel, PersonalCraftingPanel, SlotUI, HotbarUI, SurvivalStatsHUD
-│   ├── PlayerHealth.cs  # Health, death, respawn
-│   ├── PlayerInteract.cs # Raycast interactions (pick up, attack, open chest)
-│   ├── TreeNode.cs      # Tree HP, drops, animations
-│   ├── TreePhysics.cs   # Tree fall physics
-│   ├── RockNode.cs      # Rock HP and ore drops
-│   ├── Chest.cs         # Chest loot logic
-│   ├── ChestSpawner.cs  # Scatter chests on terrain
-│   ├── TreeSpawner.cs   # Scatter trees (excludes water)
-│   ├── EnemySpawner.cs  # Spawn enemies on NavMesh (excludes water)
-│   ├── DropItem.cs      # World item pickup logic
-│   ├── WorldLootItem.cs # Item data attached to world drops
-│   └── ...
-├── ITEMDATA/
-│   ├── master_prefabs/  # Wood item data and world prefab
-│   ├── Food/            # Apple, Pumpkin, Coconut, Fish, Mushroom etc.
-│   ├── ores/            # Stone, Copper, Gold, Emerald, Violet, Bloom ores + tools
-│   ├── Building/        # Barrel, Fence, Floor Board
-│   ├── Recpies/         # All CraftingRecipe ScriptableObjects
-│   └── Treeessss/       # Tree prefabs (Apple Tree, Shrubs, etc.)
-└── ...
-```
-
 ---
 
 ## 🚀 How to Run (Build)
